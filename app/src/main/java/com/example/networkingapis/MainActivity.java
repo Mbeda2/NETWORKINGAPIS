@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private RequestQueue requestQueue; // Volley RequestQueue for network requests
     private RecyclerView recyclerView; // RecyclerView to display posts
     // Initialize the adapter with an empty list initially
-    private MyAdapter adapter = new MyAdapter(Collections.<com.example.networkingapis.PostPost>unmodifiableList(new ArrayList<>())); // Adapter for the RecyclerView
+    private MyAdapter adapter = new MyAdapter(Collecgittions.<com.example.networkingapis.PostPost>unmodifiableList(new ArrayList<>())); // Adapter for the RecyclerView
     private Button fetchDataButton; // Button to trigger data fetch
 
     // The API endpoint URL for JSONPlaceholder posts
